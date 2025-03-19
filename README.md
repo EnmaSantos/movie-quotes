@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Movie Quotes: Visual Narratives Through Time
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This repository explores the philosophical depths of cinema through visualizations that transform iconic movie quotes into meaningful visual representations. Each diagram captures the essence of a film's themes, character development, or narrative structure in an interactive format.
 
-In the project directory, you can run:
+The project began by exploring the non-linear time perception in Denis Villeneuve's "Arrival" and has expanded to examine how various films communicate complex ideas that can be enhanced through visual representation.
 
-### `npm start`
+![Non-Linear Time Perception Visualization](https://github.com/EnmaSantos/movie-quotes/blob/main/Screenshot%202025-03-18%20133603.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## The Power of Visual Narratives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Films often convey complex philosophical concepts through dialogue. By transforming these verbal expressions into visual representations, we:
 
-### `npm test`
+1. Reveal hidden patterns in narrative structures that might not be immediately apparent
+2. Make abstract concepts more tangible and accessible
+3. Create new perspectives to appreciate cinematic storytelling
+4. Explore the unique approaches different filmmakers use to communicate similar ideas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Each visualization in this repository honors the original film while offering a new lens through which to understand its ideas.
 
-### `npm run build`
+## Current Visualizations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Arrival (2016)
+Our visualization represents the film's central concept of non-linear time perception. Rather than showing time as a straight line, we've created a circular structure where moments connect across time, mirroring Louise Banks' experience where past, present, and future exist simultaneously.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Key quotes explored include:
+- "If you could see your whole life from start to finish, would you change things?"
+- "Memory is a strange thing. It does not work like I thought it did."
+- "We are so bound by time, by its order."
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technology Stack
 
-### `npm run eject`
+This project is built using:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** for component architecture
+- **D3.js** for data visualization and interactivity
+- **SVG** for high-quality, scalable graphics
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Each visualization is created as a standalone component that represents the philosophical underpinnings of its source material.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js (v14 or later)
+- npm or yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone the repository
+git clone https://github.com/EnmaSantos/movie-quotes.git
 
-### Code Splitting
+# Navigate to project directory
+cd movie-quotes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+npm install
 
-### Analyzing the Bundle Size
+# Start the development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How to Use This Repository
 
-### Making a Progressive Web App
+### Exploring Visualizations
+Each visualization is interactive - hover over nodes to see the full quotes and understand how different moments in the film connect conceptually rather than chronologically.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Understanding the Code
+The repository is organized by film, with each visualization accompanied by:
+- Source quotes and their context
+- Explanation of the visual metaphors used
+- Technical implementation details
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! If you'd like to add a visualization for a film you love:
 
-### Deployment
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-film-viz`)
+3. Create your visualization following the project structure
+4. Add documentation explaining both the technical aspects and philosophical connections
+5. Submit a pull request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future Directions
 
-### `npm run build` fails to minify
+We plan to expand this collection with visualizations for films that explore:
+- Parallel realities and multiverse theories
+- Character development arcs
+- Narrative structures that play with time and perspective
+- Philosophical concepts in science fiction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Inspired by the works of directors who challenge conventional narrative structures
+- Special thanks to all contributors who help expand this exploration of cinema through data visualization
+
+---
+
+Cinema and data visualization share a common purpose: to communicate complex ideas in ways that resonate emotionally and intellectually. This repository sits at that intersection, inviting you to see familiar films in an entirely new light.
