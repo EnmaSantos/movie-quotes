@@ -6,7 +6,7 @@ This repository explores the philosophical depths of cinema through visualizatio
 
 The project began by exploring the non-linear time perception in Denis Villeneuve's "Arrival" and has expanded to examine how various films communicate complex ideas that can be enhanced through visual representation.
 
-![Non-Linear Time Perception Visualization](https://github.com/EnmaSantos/movie-quotes/blob/main/Screenshot%202025-03-18%20133603.png)
+![Non-Linear Time Perception Visualization](https://github.com/EnmaSantos/movie-quotes/blob/master/Screenshot%202025-03-18%20133603.png)
 
 ## The Power of Visual Narratives
 
